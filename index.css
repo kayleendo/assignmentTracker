@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+    color: black;
+    background-color: rgb(255, 203, 203);
+    padding: 1em 0;
+    border-radius: 15px;
+}
+
+div {
+    text-align: center;
+}
+
+event {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+date {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+time {
+    display: inline-block;
+}
+
+submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.assignmentTitle {
+    text-align: center;
+    margin-bottom: -10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box {
+    margin-top: 20px;
+  }
+
+.addAssign {
+    background-color: rgb(255, 203, 203);
+    padding: 8px;
+    font-size: 12px;
+    border-radius: 10px;
+    border-color: rgb(255, 203, 203);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+#no-assignments {
+    text-align: center;
+    margin-top: 20px;
+}

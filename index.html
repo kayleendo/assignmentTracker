@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="box.css" />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="index.js"></script>
+    <title>
+        Assignment Tracker
+    </title>
+</head>
+<body>
+    <header>
+        <h1>Assignment Tracker</h1>
+    </header>
+    <div>
+        <event>
+            <label for="event">Assignment:</label>
+            <input type="text" id="event" name="event"><br><br>
+        </event>
+        <date>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="time"><br><br>
+        </date>
+        <time>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time"><br><br>
+        </time>
+    </div>
+    <submit>
+        <button class="addAssign" type="submit" onclick="addEvent()">Add Assignment</button>
+    </submit>
+    <p class="assignmentTitle">My Assignments</p>
+    <p id="no-assignments" style="display: block;">No Assignments!</p>
+    <div class="box" id="schedule">
+    </div>
+</body>
+</html>
